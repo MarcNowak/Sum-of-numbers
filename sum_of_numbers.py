@@ -11,6 +11,7 @@ print(sum)
 
 """ 2. def """
 
+"""
 def sum_of_numbers(number):
     sum = 0
     for number in range(1, number + 1):
@@ -19,3 +20,11 @@ def sum_of_numbers(number):
 
 
 print(sum_of_numbers(28))
+"""
+
+""" 3. List Comprehension """
+
+def sum_of_numbers(number):
+    return sum(number for number in range(1, number + 1))
+
+print(sum_of_numbers(25))
